@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button {
+    text-transform: none !important;
+}
+
+.stroke-title {
+    font-size: 68px;
+    font-weight: 900;
+    color: #333;
+    text-align: center;
+}
+
+div.text-transformed {
+    height: 100%;
+}
+
+.btn-container {
+    display: block;
+    margin: auto;
+}
+
+@media (max-width: 991.98px){
+    .stroke-title {
+        font-size: 38px;
+    }
+}
